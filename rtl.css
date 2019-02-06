@@ -1,0 +1,135 @@
+/*!
+ * rtl CSS
+ * Copyright 2018 m.ghasemi
+ */
+ /**
+
+
+
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Header
+ * 3.0 - Index
+ * 4.0 - Single
+	  4.1 -Comment
+ */
+
+
+/**
+ * 1.0 - Normalize
+ *
+ */
+ @font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 400;
+	src: url('dist/fonts/IRANSansWeb.woff2') format('woff2');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: bold;
+	font-weight: 500;
+	src: url('dist/fonts/IRANSansWeb_Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: lighter;
+	font-weight: 300;
+	src: url('dist/fonts/IRANSansWeb_Light.woff2') format('woff2');
+}
+body {
+	font-family: IRANSans;
+}
+.ltr{
+	direction:rtl;
+}
+.text-left {
+    text-align: right !important;
+}
+.float-left {
+    float: right !important;
+}
+.float-right {
+    float: left!important;
+}
+/**
+ * 2.0 - Header
+ */
+
+.navbar-light .navbar-nav .menu-item,
+.header-icon li:last-child a{
+	text-align: right!important;
+}
+.search-submit{
+	margin-right:-5px;
+	margin-left:0;
+	border-right: 0;
+}
+.header-icon.ml-auto{
+	margin-right: auto !important;
+	margin-left: 0!important;
+}
+/**
+ * 3.0 -index
+ */
+.post-list li strong i {
+	padding-left: .5rem !important;
+	padding-right: 0 !important;
+}
+.post-list li span {
+    direction: rtl;
+}
+.cat-title.ml-3{
+	margin-right: 1rem !important;
+	margin-left: 0 !important;
+}
+/**
+ * 4.0 -single
+ */
+.next-prev-post .pl-0{
+	text-align: left !important;
+}
+
+/**
+ * 4.1 -Comment
+ */
+.comment-respond,
+.commentlist{
+	text-align: right;
+}
+.comment-form-email,
+.reply{
+	float:left;
+}
+#submit{
+	float:left;
+}
+
+#comments,
+.comment-reply-title,
+.logged-in-as,
+.comment-notes{
+	text-align: right;
+}
+ul.children{
+	padding-right: 50px!important;
+	padding-left: 0!important;
+}
+.pagination{
+	direction: rtl!important;
+}
+.fa-angle-double-left::before {
+    content: "\f101"!important;
+}
+.fa-angle-double-right::before {
+    content: "\f100"!important;
+}
+.pagination a:first-of-type{
+	margin-left: 5px;
+}
+
+.voice-box .row,
+.next-prev-post .row{
+   direction: rtl!important;
+}
