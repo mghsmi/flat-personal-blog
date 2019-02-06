@@ -5,7 +5,7 @@ Tested up to: WordPress 4.8
 Version: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: blog, custom-logo, custom-menu, featured-images,rtl-language-support,translation-ready
+Tags: blog , custom-logo, custom-menu, featured-images,rtl-language-support,translation-ready
 
 == Description ==
 
